@@ -324,3 +324,88 @@ body{
   height: 280px;
   padding: 8px;
 }
+
+/* Deals of the day */
+.div_2{
+  margin-left: 8.5%;
+  margin-right: 8.5%;
+  justify-content: space-around;
+}
+.deals{
+  background: white;
+  width: 1330px;
+}
+
+.deal_head{
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #e3e1e1;
+  border-bottom: 1px solid #e3e1e1;
+}
+
+.deal_head a:last-child{
+  margin-left: auto;
+}
+
+.timer{
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.time{
+  color: #7f7f7f;
+}
+
+.deal_head h2{
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.view{
+  background: #2874f0;
+  color: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  border: none;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.deal_list{
+  justify-content: space-evenly;
+  padding: 40px;
+  font-size: 14px;
+}
+
+.deal_item{
+  flex-direction: column;
+  text-align: center;
+  line-height: 37px;
+  align-items: center;
+  justify-content: center;
+}
+.deal_item img{
+  height: 100px;
+  width: 100px;
+}
+
+.offer{
+  color: #388e3c;
+}
+
+.thirdline{
+  color: #737373;
+}
+
+.furn_ad img{
+  height: 340px;
+  width: 240px;
+}
+
+.furn_ad{
+  background: white;
+  padding: 10px;
+}
