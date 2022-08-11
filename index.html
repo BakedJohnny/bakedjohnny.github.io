@@ -9,22 +9,77 @@
   </head>
   <body>
     <!-- navbar start-->
-    <nav class="top_navbar" id="top_navbar">
+    <nav class="top_navbar flex" id="top_navbar">
       <!--navbar contents-->
-      <div class="nav_container">
-        <div class="nav_logo">
+      <div class="nav_container flex">
+        <div class="nav_logo flex">
           <a title="Flipkart" href="#" class="logo"> <img src="images/logo.png" alt="Logo of Flipkart"> </a>
-          <a href="#" class="explore plus">Explore <span class="exploreplus">Plus <img src="images/exploreplus.png" alt="icon for explore plus"</span> </a>
+          <a href="#" class="explore_plus exploreplus">Explore <span class="plus">Plus <img src="images/exploreplus.png" alt="icon for explore plus"</span> </a>
         </div>
         <div class="search_bar_container">
           <div class="search_bar">
-            <form class="search">
+            <form class="search flex">
               <input title="Search for products, brands and more" class="search_box" type="text" placeholder="Search for products, brands and more" >
               <button class="search_button"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
           </div>
         </div>
+
+        <!--login-->
+        <div class="login">
+          <a href="#" class="login_btn">login</a>
+          <div class="login_dropdown none">
+            <ul class="login_dropdown_list">
+              <li class="login_drop_li sign_li f lex">
+                <p class="new_login">New customer</p>
+                <a href="#" class="sign_up">Sign Up</a>
+              </li>
+              <li class="login_drop_li">My Profile</li>
+              <li class="login_drop_li">Flipkart Plus Zone</li>
+              <li class="login_drop_li">Orders</li>
+              <li class="login_drop_li">Wishlist</li>
+              <li class="login_drop_li">Rewards</li>
+              <li class="login_drop_li">Gift Cards</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- more-->
+        <div class="more">
+          <span class="more_lan">More <i class="fa fa-angle-down"></i></span>
+          <div class="more_dropdown none">
+            <div class="pointer more_pointer"></div>
+            <ul class="more_dropdown_list">
+              <li class="more_drop_li"><i class="more_icon fa fa-bell"></i>Notification Preferances</li>
+              <li class="more_drop_li"><i class="more_icon fa fa-shopping-basket"></i>Sell on Flipkart</li>
+              <li class="more_drop_li"><i class="more_icon fa fa-question"></i>24x7 Customer Care</li>
+              <li class="more_drop_li"><i class="more_icon fa fa-line-chart"></i>Advertise</li>
+              <li class="more_drop_li"><i class="more_icon fa fa-download"></i>Download App</li>
+            </ul>
+          </div>
+        </div>
+
+        <!--cart-->
+        <div class="cart">
+          <span class="cart_lan"><i class="fa fa-shopping-cart"></i> Cart</span>
+        </div>
       </div>
     </nav>
+
+    <!-- Heading categories-->
+    <div class="heading_categories flex">
+      <ul class="heading_category_list flex">
+        <li class="heading_category_items">
+        <img src="" alt="" class="cat_image"></li>
+        <li class="heading_category_items"></li>
+        <li class="heading_category_items"></li>
+        <li class="heading_category_items"></li>
+        <li class="heading_category_items"></li>
+        <li class="heading_category_items"></li>
+        <li class="heading_category_items"></li>
+        <li class="heading_category_items"></li>
+        <li class="heading_category_items"></li>
+      </ul>
+    </div>
   </body>
 </html>
