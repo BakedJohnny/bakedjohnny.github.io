@@ -274,3 +274,54 @@ body{
 .login:hover .login_dropdown, .more:hover .more_dropdown{
   display:block;
 }
+
+/* corousel */
+.nav_button{
+  position: absolute;
+}
+
+.carousel_btn{
+  position: relative;
+  border-radius: 4px 4px 4px 4px;
+  font-size: 40px;
+  background: hsla(0, 0%, 100%, .98);
+  width: 47px;
+  height: 104px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 5px 0 rgb(0, 0, 0/11%);
+  cursor: pointer;
+  top: 90px;
+}
+
+.prev_btn{
+  left: 0;
+  margin-left: 162px;
+}
+
+.next_prev{
+  font-weight: bold;
+}
+
+.next_btn{
+  right:0;
+  margin-right: 162px;
+}
+
+.carousel_item_container{
+  margin: auto;
+  max-width: 1608px;
+  min-width: 978px;
+  overflow: hidden;
+  padding-top: 10px;
+}
+
+.carousel_items{
+  width: 100%;
+}
+
+.carousel_image{
+  width: 100%;
+  height: 280px;
+  padding: 8px;
+}
