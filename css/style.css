@@ -1,7 +1,7 @@
 *{
   margin: 0;              /*   To reset browser   */
   padding: 0;             /*default values(if any)*/
-  box-sizing: border-box; /*https://www.w3schools.com/css/css3_box-sizing.asp*/
+  box-sizing: border-box; 
 }
 body{
   background: #f1f3f6;
