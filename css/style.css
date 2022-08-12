@@ -445,3 +445,66 @@ body{
   font-size: 11px;
   color: #878787;
 }
+
+.div_4_1{
+  color: #848484;
+  font-weight: 500;
+}
+
+.div_4_1 a{
+  text-decoration: none;
+}
+
+.brand_dir{
+  color: #565656;
+}
+
+.brands a{
+  padding: 0 5px;
+  border-right: 1px solid #333;
+  font-size: 12px;
+  color: #3e3c3c;
+}
+
+.brands a:last-child{
+  border-right: none;
+}
+
+footer{
+  background: #172337;
+}
+
+.footer1 div{
+  flex-direction: column;
+  margin: 10px;
+  margin-left: 70px;
+}
+
+.footer1 span{
+  color: #878787;
+  font-size: 12px;
+}
+
+.footer1 a{
+  text-decoration: none;
+  line-height: 2;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.footer1 a:hover{
+  text-decoration: underline;
+}
+
+.footer1 p{
+  line-height: 1.5;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.addr{
+    max-width: 25%;
+    padding-left: 50px
+}
