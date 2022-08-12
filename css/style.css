@@ -214,7 +214,6 @@ body{
   list-style: none;
   background-color: white;
   width: max-content;
-  box-shadow: 0 4px 16px 0 rgb(0, 0, 0/20%);
   min-width: 240px;
   transform: translate(-30px);
 }
