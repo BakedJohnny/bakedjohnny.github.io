@@ -409,3 +409,39 @@ body{
   background: white;
   padding: 10px;
 }
+
+/* div-3 */
+.div_3{
+  justify-content: center;
+  margin-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.div_3 img{
+  width: 90.8%;
+}
+
+/* div-4 */
+.div_4{
+  background: white;
+  padding: 40px;
+}
+
+.div_4 h1{
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #878787;
+}
+
+.div_4 h2{
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #878787;
+}
+
+.div_4 p{
+  line-height: 16px;
+  font-size: 11px;
+  color: #878787;
+}
